@@ -1,0 +1,48 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-square {
+    /* Size will be calculated by JavaScript based on grid dimensions */
+    /* No fixed width / height here - JS will set these dynamically */
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 0;
+    padding: 0;
+
+    /* Optional: smooth color transitions */
+    transition: background-color 0.1s ease;
+}
